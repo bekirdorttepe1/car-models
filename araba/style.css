@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #f1f2f6;
+}
+.genel {
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+    padding: 30px;
+    background-color: #34495e;
+}
+.box1 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dfe6e9;
+}
+.yazi {
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    display: table;
+    border: 1px solid red;
+    box-shadow: 5px 10px 18px red;
+    padding: 10px;
+}
+.foto {
+    width: 50%;
+    height: 500px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.box2 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dfe6e9;
+}
+.yazi2 {
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    display: table; 
+    border: 1px solid red;
+    box-shadow: 5px 10px 18px red;
+}
+.foto2 {
+    width: 50%;
+    height: 500px;
+}
+.box3 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #dfe6e9;
+}
+.yazi3 {
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    display: table;
+    border: 1px solid red;
+    box-shadow: 5px 10px 18px red; 
+}
+.foto3 {
+    width: 50%;
+    height: 500px;
+}
+.box4 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yazi4 {
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    display: table; 
+    border: 1px solid red;
+    box-shadow: 5px 10px 18px red;
+}
+.foto4 {
+    width: 50%;
+    height: 500px;
+}
+.yazi p, .yazi2 p, .yazi3 p, .yazi4 p {
+    display: table-cell;
+    vertical-align: middle;
+    color: #dfe6e9;
+}
+.box1 .foto {
+    background-image: url(./1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.box2 .foto2 {
+    background-image: url(./22.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.box3 .foto3 {
+    background-image: url(./3.jfif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.box4 .foto4 {
+    background-image: url(./4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
